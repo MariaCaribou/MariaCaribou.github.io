@@ -31,7 +31,3 @@ window.addEventListener('load', () => {
     menu = new Menu();
     menu.init();
 });
-//click fuera
-//click en los link
-//redimensionar
-//hacer scroll

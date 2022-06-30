@@ -33,7 +33,6 @@ class Menu
 
 	public close = (event : Event) =>
 	{
-		// event.preventDefault();
 		this.nav.classList.remove('open');
 		this.button.classList.remove('open');
 	}
@@ -45,8 +44,3 @@ window.addEventListener('load', () =>
 	menu = new Menu();
 	menu.init();
 });
-
-//click fuera
-//click en los link
-//redimensionar
-//hacer scroll
