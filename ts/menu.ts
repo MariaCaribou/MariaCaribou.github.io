@@ -20,7 +20,13 @@ class Menu
 		window.addEventListener('scroll', this.close);
 		
 		elementsExceptHeader.forEach(elementExceptHeader => elementExceptHeader.addEventListener('click', this.close));
-		links.forEach(link => link.addEventListener('click', this.close));
+
+		for (const link of links)
+		{
+			link.addEventListener('click', this.close);
+			link.addEventListener('click', this.removeHashFromWindowLocation);
+		}
+		
 		socialLinks.forEach(socialLink => socialLink.addEventListener('click', this.close));
 	}
 
@@ -35,6 +41,19 @@ class Menu
 	{
 		this.nav.classList.remove('open');
 		this.button.classList.remove('open');
+	}
+
+	public removeHashFromWindowLocation = (event : Event) =>
+	{
+		// Wait 5ms in order to work properly
+		setTimeout(() => {
+			let uri = window.location.toString();
+			if (uri.indexOf('#') > 0) 
+			{
+				let uriWithoutHash = uri.substring(0, uri.indexOf('#'));
+				window.history.replaceState({}, document.title, uriWithoutHash);
+			}
+		}, 5);
 	}
 }
 
