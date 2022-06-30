@@ -42,6 +42,7 @@ $animationSpeed: 15s;
                 margin-top: 0;
                 margin-bottom: 10px;
                 font-weight: 900;
+                letter-spacing: 1px;
 
                 @include fluid-type(font-size, map-get($map-device-width, small-screen), map-get($map-device-width, big-desktop), map-get($map-font-size, h3-s), map-get($map-font-size, h3-l));
             }
@@ -52,6 +53,7 @@ $animationSpeed: 15s;
                 font-family: $font1;
                 font-weight: 400;
                 margin: 0;
+                letter-spacing: 1px;
 
                 @include fluid-type(font-size, map-get($map-device-width, small-screen), map-get($map-device-width, big-desktop), map-get($map-font-size, body-s), map-get($map-font-size, body-l));
             }
