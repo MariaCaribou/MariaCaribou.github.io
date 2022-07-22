@@ -1,0 +1,117 @@
+#gallery-viewer {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($color: white, $alpha: 0.8);
+    z-index: 97;
+
+    #close-button {
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        color: black;
+        font-size: 54px;
+        padding: 0 15px;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+    .arrow-container {
+        position : absolute;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: 98;
+
+        .arrow {
+            position: absolute;
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 9px;
+            top: 50%;
+            bottom: 50%;
+            cursor: pointer;
+
+            transform: translateY(-50%);
+        }
+
+        .left {
+            left: 10%;
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .right {
+            right: 10%;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+    }
+
+    .left {
+        left : 0;
+    }
+
+    .right {
+        right : 0;
+    }
+    
+    #gallery-viewer-image-container {
+        position: absolute;
+        margin: 0 auto;
+        width: 80%;
+        height: 85vh;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        img {
+            position: absolute;
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease-in-out;
+            left: 50%;
+            top: 50%;
+    
+            transform: translate(-50%, -50%);  
+        }
+    }
+}
+
+@include mobile {
+    #gallery-viewer {
+        #close-button {
+            font-size: 48px!important;
+        }
+
+        .arrow-container {
+            .arrow {
+                padding: 6px!important;
+            }
+        }
+
+        #gallery-viewer-image-container {
+            img {
+                width: 100%!important;
+                height: auto!important;
+            }
+        }
+    }
+}
+
+@include mobile-landscape {
+    #gallery-viewer {
+        #gallery-viewer-image-container {
+            img {
+                width: auto!important;
+                height: 100%!important;
+            }
+        }
+    }
+}

@@ -6,15 +6,6 @@
 	100% {
 		transform: rotate(360deg);
 	}
-} 
-
-@keyframes fadeOut {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
 }
 
 .loader {
@@ -27,6 +18,7 @@
 	box-sizing: border-box;
 	top: 0;
 	left: 0;
+	transition: 0.5s all ease-in-out;
 
 	.inner-loader {
 		width: 48px;
@@ -34,6 +26,7 @@
 		display: block;
 		z-index: 99;
 		margin: 0 auto;
+		transition: 0.5s all ease-in-out;
 
 		@include vertical-align;
 
@@ -54,22 +47,5 @@
 			border-color: $color-black;
 			animation-direction: alternate-reverse;
 		}
-
-		&.hidden {
-			animation-name: fadeOut;
-			animation-duration: 0.5s;
-			animation-fill-mode: forwards;
-		}
-	}
-
-	&.hidden {
-		animation-name: fadeOut;
-		animation-duration: 0.5s;
-		animation-fill-mode: forwards;
-	}
-
-	&.negative-index {
-		z-index: -1;
-		visibility: hidden;
 	}
 }

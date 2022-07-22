@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="no-scroll">
+<head>
+    <title>Maria Caribou</title>
+    <meta name="title" content="Maria Caribou">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”google” content=”nositelinkssearchbox”>
+    <meta name="description" content="Portrait photography gallery">
+    <meta name="theme-color" content="#222222">
+    <meta name="google-site-verification" content="-miR4vhJWUdyB-l02MGevATlRbTgqHmQq9FRHxgbZ3Y" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mariacaribou.github.io">
+    <meta property="og:title" content="Maria Caribou">
+    <meta property="og:description" content="Portrait photography gallery">
+    <meta property="og:image" content="https://mariacaribou.github.io/img/images/portfolio-preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mariacaribou.github.io">
+    <meta property="twitter:title" content="Maria Caribou">
+    <meta property="twitter:description" content="Portrait photography gallery">
+    <meta property="twitter:image" content="https://mariacaribou.github.io/img/images/portfolio-preview.png">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- JS -->
+    <script src="js/loader.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/gallery-loader.js"></script>
+    <script src="js/gallery-viewer.js"></script>
+    <script src="js/gallery-scroller.js"></script>
+    <script>const galleryLoader = new GalleryLoader('portraits');</script>
+    <script>const loader = new Loader('gallery-loaded');</script>
+</head>
+
+<body class="no-scroll">
+    <!-- Loader -->
+    <div class="loader">
+        <span class="inner-loader"></span>
+    </div>
+
+    <!-- Menu -->
+    <header>
+        <a href="./" id="personal-logo">maria caribou</a>
+    
+        <div id="hamburger">
+            <span id="hamburger-top-bun"></span>
+            <span id="hamburger-bottom-bun"></span>
+        </div>
+    
+        <nav>
+            <a class="nav-links" href="./gallery.html">Gallery</a>
+            <a class="nav-links" href="./index.html">Home</a>  
+    
+            <div id="logo-container">
+                <a class="social-links" href="https://github.com/MariaCaribou" target="_blank"><img src="img/logos/github.png" alt="github"></a>
+                <a class="social-links" href="https://www.linkedin.com/in/mariagonzalezsanz/" target="_blank"><img src="img/logos/linkedin.png" alt="linkedin"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Gallery viewer -->
+    <div id="gallery-viewer" class="hidden negative-index">
+        <div id="close-button">&times;</div>
+        <div class="arrow-container left" id="left-arrow-container">
+            <div id ="arrow-left" class="arrow left"></div>
+        </div >
+        <div id="gallery-viewer-image-container"></div>
+        <div class="arrow-container right" id="right-arrow-container">
+            <div id="arrow-right" class="arrow right"></div>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="column" id="column-1"></div>
+        <div class="column" id="column-2"></div>
+        <div class="column" id="column-3"></div>
+    </section>
+
+    <footer>
+        <a class="footer-icons" href="https://github.com/MariaCaribou" target="_blank"><img src="img/logos/github.png" alt="github"></a>
+        <a class="footer-icons" href="https://www.linkedin.com/in/mariagonzalezsanz/" target="_blank"><img src="img/logos/linkedin.png" alt="linkedin"></a><br>
+    </footer>
+</body>
+</html>

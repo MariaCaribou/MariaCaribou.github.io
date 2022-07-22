@@ -1,37 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-scroll">
 <head>
-    <title>Gallery | Maria Caribou</title>
-    
+    <title>Maria Caribou</title>
+    <meta name="title" content="Maria Caribou">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=”google” content=”nositelinkssearchbox”>
-    <meta name="description" content="Hi! My name is Maria, I'm a junior FullStack Developer from Madrid, Spain. Here you can take a look at my work.">
+    <meta name="description" content="Here you can acces my diferent photography galleries">
     <meta name="theme-color" content="#222222">
     <meta name="google-site-verification" content="-miR4vhJWUdyB-l02MGevATlRbTgqHmQq9FRHxgbZ3Y" />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-     <!-- FONTS -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
- 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
-     
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mariacaribou.github.io">
+    <meta property="og:title" content="Maria Caribou">
+    <meta property="og:description" content="Here you can acces my diferent photography galleries">
+    <meta property="og:image" content="https://mariacaribou.github.io/img/images/portfolio-preview.png">
 
-    <style>
-        body {background-color: #222;}
-        h1 {position: absolute; font-family: 'Lustria'; font-size: 30px; display: inline-block; color: white; text-align: center; top: 50%; transform: translateY(-50%); margin: 0 auto; left: 50%; transform: translateX(-50%);}
-    </style>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mariacaribou.github.io">
+    <meta property="twitter:title" content="Maria Caribou">
+    <meta property="twitter:description" content="Here you can acces my diferent photography galleries">
+    <meta property="twitter:image" content="https://mariacaribou.github.io/img/images/portfolio-preview.png">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- JS -->
+    <script src="js/loader.js"></script>
+    <script src="js/menu.js"></script>
+    <script>const loader = new Loader();</script>
 </head>
-<body>
-    <h1>Coming soon!</h1>
+
+<body class="no-scroll">
+    <!-- Loader -->
+        <div class="loader">
+        <span class="inner-loader"></span>
+    </div>
+
+    <!-- Menu -->
+    <header>
+        <a href="./" id="personal-logo">maria caribou</a>
+
+        <div id="hamburger">
+            <span id="hamburger-top-bun"></span>
+            <span id="hamburger-bottom-bun"></span>
+        </div>
+
+        <nav>
+            <a class="nav-links" href="./index.html">Home</a> 
+
+            <div id="logo-container">
+                <a class="social-links" href="https://github.com/MariaCaribou" target="_blank"><img src="img/logos/github.png" alt="github"></a>
+                <a class="social-links" href="https://www.linkedin.com/in/mariagonzalezsanz/" target="_blank"><img src="img/logos/linkedin.png" alt="linkedin"></a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="content-menu">
+        <a href="./landscape-gallery.html" class="container">
+            <img src="img/gallery-landscapes/small/landscape2.jpg" alt="Landscapes">
+            <span class="gallery-title">Landscapes</span>
+        </a>
+        <a href="./portrait-gallery.html" class="container">
+            <img src="img/gallery-portraits/small/portrait11.JPG" alt="Portrait">
+            <span class="gallery-title">Portraits</span>
+        </a>
+        <a href="./composition-gallery.html" class="container">
+            <img src="img/gallery-composition/small/composition16.JPG" alt="Composition">
+            <span class="gallery-title">Composition</span>
+        </a>
+    </section>
+
+    <footer>
+        <a class="footer-icons" href="https://github.com/MariaCaribou" target="_blank"><img src="img/logos/github.png" alt="github"></a>
+        <a class="footer-icons" href="https://www.linkedin.com/in/mariagonzalezsanz/" target="_blank"><img src="img/logos/linkedin.png" alt="linkedin"></a><br>
+    </footer>
 </body>
 </html>

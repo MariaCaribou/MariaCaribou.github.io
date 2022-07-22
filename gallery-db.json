@@ -1,0 +1,280 @@
+{
+    "landscapes" : {
+        "landscape1" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape1.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape1.jpg",
+            "column": 1
+        },
+        "landscape2" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape2.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape2.jpg",
+            "column" : 1
+        },
+        "landscape3" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape3.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape3.jpg",
+            "column" : 1
+        },
+        "landscape4" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape4.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape4.jpg",
+            "column" : 1
+        },
+        "landscape5" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape5.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape5.jpg",
+            "column" : 1
+        },
+        "landscape6" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape6.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape6.jpg",
+            "column" : 2
+        },
+        "landscape7" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape7.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape7.jpg",
+            "column" : 2
+        },
+        "landscape8" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape8.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape8.jpg",
+            "column" : 2
+        },
+        "landscape9" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape9.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape9.jpg",
+            "column" : 2
+        },
+        "landscape10" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape10.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape10.jpg",
+            "column" : 2
+        },
+        "landscape11" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape11.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape11.jpg",
+            "column" : 3
+        },
+        "landscape12" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape12.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape12.jpg",
+            "column" : 3
+        },
+        "landscape13" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape13.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape13.jpg",
+            "column" : 3
+        },
+        "landscape14" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape14.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape14.jpg",
+            "column" : 3
+        },
+        "landscape15" : {
+            "smallSource" : "/img/gallery-landscapes/small/landscape15.jpg",
+            "bigSource" : "/img/gallery-landscapes/big/landscape15.jpg",
+            "column" : 3
+        }
+    },
+
+    "portraits" : {
+        "portrait1" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait1.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait1.jpg",
+            "column": 1
+        },
+        "portrait2" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait2.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait2.jpg",
+            "column" : 1
+        },
+        "portrait3" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait3.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait3.jpg",
+            "column" : 1
+        },
+        "portrait4" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait4.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait4.jpg",
+            "column" : 1
+        },
+        "portrait5" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait5.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait5.jpg",
+            "column" : 1
+        },
+        "portrait6" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait6.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait6.jpg",
+            "column" : 1
+        },
+        "portrait7" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait7.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait7.jpg",
+            "column" : 2
+        },
+        "portrait8" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait8.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait8.jpg",
+            "column" : 2
+        },
+        "portrait9" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait9.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait9.jpg",
+            "column" : 2
+        },
+        "portrait10" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait10.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait10.jpg",
+            "column" : 2
+        },
+        "portrait11" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait11.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait11.jpg",
+            "column" : 2
+        },
+        "portrait12" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait12.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait12.jpg",
+            "column" : 2
+        },
+        "portrait13" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait13.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait13.jpg",
+            "column" : 3
+        },
+        "portrait14" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait14.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait14.jpg",
+            "column" : 3
+        },
+        "portrait15" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait15.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait15.jpg",
+            "column" : 3
+        },
+        "portrait16" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait16.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait16.jpg",
+            "column" : 3
+        },
+        "portrait17" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait17.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait17.jpg",
+            "column" : 3
+        },
+        "portrait18" : {
+            "smallSource" : "/img/gallery-portraits/small/portrait18.jpg",
+            "bigSource" : "/img/gallery-portraits/big/portrait18.jpg",
+            "column" : 3
+        }
+    },
+
+    "composition" : {
+        "composition1" : {
+            "smallSource" : "/img/gallery-composition/small/composition1.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition1.jpg",
+            "column": 1
+        },
+        "composition2" : {
+            "smallSource" : "/img/gallery-composition/small/composition2.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition2.jpg",
+            "column" : 1
+        },
+        "composition3" : {
+            "smallSource" : "/img/gallery-composition/small/composition3.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition3.jpg",
+            "column" : 1
+        },
+        "composition4" : {
+            "smallSource" : "/img/gallery-composition/small/composition4.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition4.jpg",
+            "column" : 1
+        },
+        "composition5" : {
+            "smallSource" : "/img/gallery-composition/small/composition5.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition5.jpg",
+            "column" : 1
+        },
+        "composition6" : {
+            "smallSource" : "/img/gallery-composition/small/composition6.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition6.jpg",
+            "column" : 1
+        },
+        "composition7" : {
+            "smallSource" : "/img/gallery-composition/small/composition7.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition7.jpg",
+            "column" : 1
+        },
+        "composition8" : {
+            "smallSource" : "/img/gallery-composition/small/composition8.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition8.jpg",
+            "column" : 2
+        },
+        "composition9" : {
+            "smallSource" : "/img/gallery-composition/small/composition9.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition9.jpg",
+            "column" : 2
+        },
+        "composition10" : {
+            "smallSource" : "/img/gallery-composition/small/composition10.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition10.jpg",
+            "column" : 2
+        },
+        "composition11" : {
+            "smallSource" : "/img/gallery-composition/small/composition11.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition11.jpg",
+            "column" : 2
+        },
+        "composition12" : {
+            "smallSource" : "/img/gallery-composition/small/composition12.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition12.jpg",
+            "column" : 2
+        },
+        "composition13" : {
+            "smallSource" : "/img/gallery-composition/small/composition13.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition13.jpg",
+            "column" : 2
+        },
+        "composition14" : {
+            "smallSource" : "/img/gallery-composition/small/composition14.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition14.jpg",
+            "column" : 2
+        },
+        "composition15" : {
+            "smallSource" : "/img/gallery-composition/small/composition15.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition15.jpg",
+            "column" : 3
+        },
+        "composition16" : {
+            "smallSource" : "/img/gallery-composition/small/composition16.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition16.jpg",
+            "column" : 3
+        },
+        "composition17" : {
+            "smallSource" : "/img/gallery-composition/small/composition17.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition17.jpg",
+            "column" : 3
+        },
+        "composition18" : {
+            "smallSource" : "/img/gallery-composition/small/composition18.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition18.jpg",
+            "column" : 3
+        },
+        "composition19" : {
+            "smallSource" : "/img/gallery-composition/small/composition19.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition19.jpg",
+            "column" : 3
+        },
+        "composition20" : {
+            "smallSource" : "/img/gallery-composition/small/composition20.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition20.jpg",
+            "column" : 3
+        },
+        "composition21" : {
+            "smallSource" : "/img/gallery-composition/small/composition21.jpg",
+            "bigSource" : "/img/gallery-composition/big/composition21.jpg",
+            "column" : 3
+        }
+    }
+}

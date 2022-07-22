@@ -25,6 +25,9 @@ $map-font-size: (
     h3-s: 20px,
     h3-l: 28px,
 
+    h2-s: 28px,
+    h2-l: 34px,
+
     title-s: 32px,
     title-l: 48px
 );
@@ -41,11 +44,11 @@ $map-line-height: (
 $color-black: #222;
 $color-white: #ffffff;
 $dark-white: #fafafa;
-$color-base: #fff3eb;
+$color-base: #fffbf8;
 $color-base1: #dfd4d9;
 $color-base2: #c5ccb2;
 
-$color-accent1: #ffe8d6;
+$color-accent1: #fff3eb;
 $color-accent2: #baa2b7;
 $color-accent3: #6b705c;
 $color-accent4: #a5a58d;
@@ -97,6 +100,12 @@ $font3: 'Inconsolata', monospace;
 // RESPONSIVE
 @mixin mobile {
     @media (max-width: #{map-get($map_device_width, tablet) - 1px}) {
+        @content;
+    }
+}
+
+@mixin mobile-landscape {
+    @media (max-width: #{map-get($map_device_width, tablet) - 1px}) and (orientation: landscape) {
         @content;
     }
 }
@@ -196,6 +205,15 @@ form {
             user-select: none!important;
 }
 
+.negative-index {
+    z-index: -1;
+    visibility: hidden;
+}
+
 .no-scroll {
     overflow: hidden!important;
+}
+
+.no-transition {
+    transition: none!important;
 }

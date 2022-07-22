@@ -1,0 +1,68 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: $color-base;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px auto 200px auto;
+    box-sizing: border-box;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        gap: 10px;
+
+        .gallery-image-container {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                cursor: zoom-in;
+            }
+        }
+    }
+}
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+} 
+
+.scrolled {
+    opacity: 1!important;
+}
+
+.fade-in {
+    animation: fade-in 1s ease-in-out both;
+}
+
+footer {
+    background-color: $color-base!important;
+}
+
+
+@include mobile {
+    #gallery {
+        flex-direction: column!important;
+        margin: 120px auto 25px auto!important;
+
+        .column {
+            width: 90%!important;
+            margin: 0 auto!important;
+        }
+    }
+}
